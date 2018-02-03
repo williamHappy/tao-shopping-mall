@@ -1172,7 +1172,8 @@ $.extend(jdModelCallCenter, {autoLocation: function(a) {
 var category = {OBJ: $("#_JD_ALLSORT"),
 		//URL_Serv: "http://manage.taotao.com/web/itemcat/all?callback=category.getDataService",
 		// URL_Serv: "http://rest.taotao.com/rest/itemcat/list?callback=category.getDataService",
-		URL_Serv: "http://localhost:8081/rest/itemcat/list?callback=category.getDataService",
+		// URL_Serv: "http://localhost:8081/rest/itemcat/list?callback=category.getDataService",
+		URL_Serv: "http://rest.taotao.com/rest/itemcat/list?callback=category.getDataService",
 
 		URL_BrandsServ: "http://d.360buy.com/brandVclist2/get?callback=category.getBrandService&ids=a,9211,9212^b,9214,9215^c,9217,9218^d,9220,9221^e,9223,9224^f,9226,9227^g,9229,9230^h,9232,9233^m,9235,9236^i,9238,9239^j,9241,9242^p,9244,9245^k,9247,9248^l,9250,9251",
 		FN_GetLink: function(a, b) {

@@ -40,14 +40,14 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
-    <build>
-        <!-- 配置插件 -->
+    <!--<build>
+        &lt;!&ndash; 配置插件 &ndash;&gt;
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
@@ -58,6 +58,6 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 </project>

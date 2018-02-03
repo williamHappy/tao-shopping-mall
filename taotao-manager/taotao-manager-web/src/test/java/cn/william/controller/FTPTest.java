@@ -17,7 +17,7 @@ public class FTPTest {
         //创建一个FtpClient对象
         FTPClient ftpClient = new FTPClient();
         //创建ftp连接
-        ftpClient.connect("192.168.184.129",21);
+        ftpClient.connect("192.168.184.131",21);
         //登录ftp服务器，使用用户名和密码
         ftpClient.login("ftpuser","admin123");
         //上传文件
@@ -37,7 +37,7 @@ public class FTPTest {
     @Test
     public void testFtpUtils() throws Exception{
         FileInputStream fileInputStream = new FileInputStream("C:\\Users\\Tao\\Desktop\\123.jpg");
-        FtpUtil.uploadFile("192.168.184.129",21,"ftpuser","admin123","/home/ftpuser/www/images","/2017/10/27","worldwill.jpg",fileInputStream);
+        FtpUtil.uploadFile("192.168.184.131",21,"ftpuser","admin123","/home/ftpuser/www/images","/2017/10/27","worldwill.jpg",fileInputStream);
     }
 
 
